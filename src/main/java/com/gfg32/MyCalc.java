@@ -23,7 +23,7 @@ public class MyCalc {
         System.out.println("sum is : " +calc.sum(10,7) );
         System.out.println("diff is : " +calc.diff(10,7) );
         System.out.println("mul is : " +calc.mul(10,7) );
-        System.out.println("mul is : " +calc.div(10,5) );
+        System.out.println("div is : " +calc.div(10,5) );
 
     }
 
