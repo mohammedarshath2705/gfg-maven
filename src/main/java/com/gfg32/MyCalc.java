@@ -16,6 +16,9 @@ public class MyCalc {
     public int div(int a,int b){
         return a/b;
     }
+    public int mod(int a,int b){
+        return a%b;
+    }
 
 
     public static void main(String[] args) {
@@ -24,6 +27,7 @@ public class MyCalc {
         System.out.println("diff is : " +calc.diff(10,7) );
         System.out.println("mul is : " +calc.mul(10,7) );
         System.out.println("div is : " +calc.div(10,5) );
+        System.out.println("mod is : " +calc.mod(10,5) );
 
     }
 
