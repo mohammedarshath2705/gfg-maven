@@ -1,5 +1,5 @@
 # Use OpenJDK 11 as base image
-FROM openjdk:11.0
+FROM openjdk:17.0
 
 # Add metadata (optional but recommended)
 LABEL maintainer="mohammedarshath"
